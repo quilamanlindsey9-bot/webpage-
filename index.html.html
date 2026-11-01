@@ -1,0 +1,167 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lindsey D. Quilaman - Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #25234a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background: #39366c;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hero {
+    background: #e5e4fa;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.hero img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    color: #25234a;
+    margin-bottom: 10px;
+}
+
+section {
+    background: white;
+    width: 85%;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+section h2 {
+    color: #39366c;
+    margin-bottom: 15px;
+}
+
+.skills span {
+    display: inline-block;
+    background: #39366c;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+footer {
+    background: #25234a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MY PORTFOLIO</h1>
+    <p>Welcome to My Personal Website</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABcQERQRDhcUEhQaGBcbIjklIh8fIkYyNSk5UkhXVVFIUE5bZoNvW2F8Yk5QcptzfIeLkpSSWG2grJ+OqoOPko3/2wBDARgaGiIeIkMlJUONXlBejY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY3/wAARCAFAAOoDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAEDAgQFBgf/xAA6EAACAgECBAMGBAMHBQAAAAAAAQIDEQQhBRIxQQYTURQiMmFxgSNCkaFSYsEVJDM0crHRU1Rzg/D/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAwECBP/EABwRAQEBAQEBAQEBAAAAAAAAAAABAhEhMRIDQf/aAAwDAQACEQMRAD8A9KAAAAAAAAAAAAAAAAASBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMXOK7kqSfRgSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV331aeHPdOMI+rZzOJccr0rdWnxZaur7RPO3X3aqznvsc5P1A7mq8QxWY6Wtzf8Utl+hzbuKa2747uVekdjTwl6GLfyyYLfars58+ef9Rt6fjF1W0pc31OXJsrbNHp14irS/w2/ubFPHtPY0ppwyeR36mcJAe+rthbFShJNP0Mzxmj192jmnCWY9452Z6rRa2rWVKdb37rugNkAAAAAAAAAAAAAAAAAAAAAAAA4HG+M8jlptLLfpOa7fJGzx3ifsdPk1P8axdV+VHkpS3AzT3LIsoTyZqT7bAXPBiyFGT6IzVEpdcnPeOpm1TNIrxuby0jaIemcexn6jfxVHlZocimLwzfa9xxxsaU4OEjZWXPFiexfo9ZZo71ZW/quzRrJ7EN46GuXu9LqIaqiNtbymv0LjynAeIez6nypv8ACseN+z9T1ZoAAAAAAAAAAAAAAAAAAAV6i6GnonbY8RgsssPP+J9ZiENLF9fen9OwHB1mplqtTO6b3k/0KCGyYpyeEYMoRcnhI3adJsmzPS0YSbRvQgT1pbOee1VCiK7F0akuxaoGagcO1PIYSh8jZcDFxMb1qSrRq3098HSlAqnDOzNl4WdcaUeVtFT2Z0bqNnjsc+xcr3Ky9Q1nhCfLLJ7Tg+s9s0MXJ5sh7sv+TxB2/Dmq8rWeVJ7WLH37Hbh6sAAAAAAAAAAAAAAAAAARKSjFyfRLJ4PiGpeq1ltr7vb6Hr+M3+Rw22SeHJcq+54dvcCDc0NHNLmaNWuPPNI7WmrUYJHGryO8TtXQhhF0EYxRZFEVmcUZpERRmkbGVjgjlLMENG8OqZRKpI2JIqlExrWnDJzdbTvlLqddo1tRDmi9jZeVl9jh9HhlunsdV0Jx6xeUY3R5ZsxXqXed9BosV1ELI9JRTLDleHdR53D+Rvet4+x1QAAAAAAAAAAAAAAAAPP+Kbmq6aU+rcmeYOz4lt5+IcvaEcHGzsBsaOObUdmpdDm8Phnc3Z2TT5K1v3ZLXtWz5G4nFPqWxx2OaqrZepmoWQ65+uTON66iRaoo5tF01s8m5XbkC7lHKgpbFNtjxsb4JscI9WatmogumWV2c82RHT5+JmeCPaovqngiTjNZi8oylpY47lSpdc8xbw+qHh65mtrcZ5NU6utr5q2zlLuUylqeu94Wv5dTZU+ko5+6PUHiOCXeTxKmWdnLlf3PbnTkAAAAAAAAAAAAAADGcuWDb7LIHieMT5+JXP8Amwc/sX6qfPdOXq2yua+H0wYOrw6P4CeDcjFZ6Gtw1Z0yNmzMY5SJVbPxdFpdTJcsl1TObB3am7kh7i7yl/wa71V1NlkZ2zTjlJcvV/MTNbbx2XBdiYPDNfTO7yIXW45ZenYukuWz6mWcbL1tRfulE3uWxf4bKUnKzAENxj8TIlbCK3aX1ZXKl3ua8xRayo77s4zhZKXlOp+ZzfFl5Oplza7SujJ4J2ZpXaZVuLom1LC5kt1k2qYS5feObOOu9ivUQzVL6HBa9/DeE2ektjmuS+RwvIcp7LbJ3mp6jCCdN6w94tNM9/XLnrjL1WTwE9rmvTY9vwy3zeHUT9YIpHFbQADAAAAAAAAAAADX18/L0V0v5WbBocZljh0/nhAeMu+KX1LKYq2nkx70X+xVMs0Txq4Z6Z3MvxufrqcOXLS4+jN3CaNPSvF1kfnk3YEatIq8hc2VlP5CWlrtnz2R5perRtKOSeQS1tYRgmsTzJLs3sYz3l+xc1hFL6i0kWx/wyuO0i6K/DKntIxrKcFJZwv0MHWn+WP6F0HtgycEdOWr5Sz0SJawXtYKZnLpXP4Wc7Hl6OdvVx3Rv3PFUn8jnamXl6BwfxSZ3HNcxNuWX1Z7Lw/Pm4XBfwto8cux6vwzLOhsj6T/AKFUHZAAAAAAAAAAAAADl8fljQfc6hyPEb/uK+oHlJkQfLPK6oS+JkL4mB2NLONmLE93szerZwNFe670n8MnhnegS1OLZvWzEsS2KovYti9jmO2Fu0clEU3LJdc8r6FXO+qg8LuZWNlJ8hRJPJktR7nUw8yWObl2+pospeevVF2DXqe7ljGS7m2AxmUTLpMom9zGqLniBxdVd50pY+FdDocWm4aZJPDlLByM+6VzEt3/AA7I9N4Xl+FevmjzGeh6PwtL3r18kdpvRAAAAAAAAAAAAABxvEjxoY/OSOycTxO17LUv5mwPLTe4XVmMnuTHfIELZprqj0VFisrjJd1k89g6XC71yuqT3W6ONTx3i+uxGZnz4RRGQnJqOxJZepIbZNH2iUH70GZLVt9khw5a3eSPXAeDUWsePhWxi9XN77Gn5rdbwRz5NJ6qctlDJZU5t++v0MGw3sVSe5LlgpttjXByk9kssRlc3itnNdCtflWX9zQa2Mp2u66VkusnkS6F54hb2q/Q7/haX94sj6xPPnb8Lyxr5L1gzWPWAAAAAAAAAAAAABwPFD/CrR3zzXiie8Y/P+gHnW9zOtFbLK3j9AMsFaslXYpweGizOEil9TB3dLqo3VqSe/dehuwfMjzFFsqrouLxvv8AM7tF/Z7MlrPFs67GxOtSXzK4rleJxTRfBplnlqXVHPXcvFH4T/IjGWH8EUjb9mi+w8iMTpv7atdW+Zbssl0LJLCKLJqK6nLnrCc8PdnH4hq/Ol5cH7ie79Tb1Njdcn0WDjZKYn+uN3/GcWZN+6itMnOxRI7nV8Oz5eJR+awco3uEWeXxCtv1A9yAAAAAAAAAAAAAHj/EVys1nKux6y+fl0zn6I8JxC3ztZZLOVnAGr9TJP8Acwe7JAylLcxbIbyQBOd8naqXNBP5HGhFyeEdzTxarUZdVszjan811Nzg+Wf6m7XYsGhKGRCU47Z2JKuorVgiVqaNFWzx0Idk2h1nF9tyXc1Hm15fQcrbzLctUdg1pa73dNPHocU7+opeoxSnhzeE/mcOyDhJprDTw0Vx8R39RkJkBHbhkX6Sfl6iEvRlBlD4lgD6HTJTqjJd0Zmlwi5XcPrkn0WGboAAAAAAAAAAdEBzOPanyNE4p+9PZHipPJ2PEGsd+scE/dhscZmCMjJBJogySCiZ4A2+FU+Zrq8raOZv7bnRo3WX3KvD1fPq7flUzYhHlxgntT+a1x22MEsSLV0GE2TVEl6ENL0M1FDlRgrjHLMpLCMlsRLoBrTbV0JLtJM53GalXxO5Lo3zfqdauvnvrj6yRoeIUlxSb9Yorj4l/T647WCC3Bg4+hRNCMo7MxJTA9V4Yv5qp1N9HlHfPF8C1Ps+vim9p7Hs08rIEgAAAAAAAGpxLUrTaWUvzPaK9WbFltdMHO2cYRXeTweZ41xWrUXRjQ3OEE9+ibA4mpm7LpNvLz1KsNlmFnIAwUPUnBlgkCEiQAO14Z/ztn+j+psyrcLJw/hk0avhv/PT/wDH/VHV11fLqVNdJr90cbnimL61UZBoyUckVWIM+UcoGBGMmclgxfuxyBfw+rm1Lm1tWv3Zw+PS5uKWfJJfseo01Xk6ZJ/FLeX1PJ8XlzcSv/1YL5nIhq9rRIZkQzpyxwmQ4ehngkCIOVclJdYvKPc8L1K1OirmnvjDPDm7oeJajQvFUk494yWUB7cHG0niLT24jqYOmXqt4nWrshdBTqnGcX3i8gZgACnU6qnSV899igu3q/scPXeJHvDRQwv+pNf7I5Ou1dmsvlbY+vRei9DTAu1Gqu1M+e6yU5fNlRAAAAAAABK6kEgb/B71p+IQb6T9x/c9RfX52m2+KO6PFJ4eV1PZ8Nv9o0kJ95Lf69zKfGjJZWUZQ6FusqdVnMvhl1+TKoNELOV6JexngNDJDYawn1LdHT51yk17kN/qypRlbYowWWzq01KipQj936nWZ2uN3kRdYoRlKTxGKyzxGps86+yz+OTZ6Tj2o8nROCfvWvl+3c8uyyLEAAAAAAAE5LtPqrtNPmpslB/JlAA9HofEe6hrYf8Asgv90dP+2NB/3Mf0Z4ozT2ASMMGTMV1AgEsgAGABjlk83yDGAJyBgAZHoPDd+a7KW/hfMvozz6OhwO7yuJQTe1mY/wDAHq7YRurcJPqcyVbhJxfVPDOnh5yU6ijnXPH411XqT1Ou8a40yOVykordvoZZ2/obuno8tcz+N/scSdU1rkZaWhUw33k+rLpdCGnFZMbZqFcpvpFZZaeI29eY8QXeZr/LT2rjj79TlFl9ruvnbLrOTZWaxDMcmTIaAjIyAA6kkIkAAABmYGQEmPcZDYDIIAAAAR3JAAkgACUZ1zddkZx6xaaMCQPeUzVtMLF0kkzNrJzeA3edwyCb3rbizqAa7oj58bMYx1XqzYSIaJRnDqJdDl8d1HkcOlFP3rXyr6dzqSPLeItR5mtjUntVHf6s0cghksxAAAA0QSGgIRJCJAAAB3JyQAABHQCUAuoAAAAgAgAAAnBJGCQO54Zv5b7aX+aPMvqj03Y8Rwu/2fiFNje3Nh/R7Htl0QAIkjuBhdNVwlOXwxTbPC6i1332Wy6zk2ep8QajyeHyin71r5ft3PJgYsglkAAAAIbJYAhEgAAyUm2kllvsjZ1GinVp4Tw2/wA69ANRdCQAAAAhdSSO5IAAACCQAJRCAGWQQEBkj3PD7vaNDTb3lFZ+p4U9R4Zv59JOlveuWV9GB2iGSYWTVdcpyeFFZYHmPEeo8zXRqT2rjv8AV/8AyOOW6m536iy2XWcmypgQyAAAAAAAAAAM6rp0z5q3hm7fxF+RDytpyW/8pzzEDJycm292wYgD/9k=" alt="Lindsey D. Quilaman">
+
+<h2>Hello! I'm Lindsey D. Quilaman</h2>
+<p>BSCS First Year Student</p>
+<p>Wesleyan University Philippines</p>
+
+</div>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+Hi! My name is Lindsey D. Quilaman.
+I am a first-year Bachelor of Science in
+Computer Science student at Wesleyan
+University Philippines. I am interested
+in technology, computers, and web development.
+</p>
+</section>
+
+<section id="skills">
+<h2>My Skills</h2>
+<div class="skills">
+<span>HTML</span>
+<span>CSS</span>
+<span>Basic Computer Skills</span>
+<span>Communication</span>
+<span>Teamwork</span>
+</div>
+</section>
+
+<section id="education">
+<h2>My Education</h2>
+<p><b>School:</b> Wesleyan University Philippines</p>
+<p><b>Course:</b> BS Computer Science</p>
+<p><b>Year Level:</b> First Year</p>
+<p><b>Senior High School Strand:</b> STEM</p>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<p><b>Email:</b> quilamanlindsey8@gmail.com</p>
+<p><b>Location:</b> Philippines</p>
+</section>
+
+<footer>
+<p>© 2026 Lindsey D. Quilaman</p>
+<p>Thank you for visiting my portfolio!</p>
+</footer>
+
+</body>
+</html>
